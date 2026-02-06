@@ -1,0 +1,24 @@
+{
+  "name": "football-predictor",
+  "version": "1.0.0",
+  "description": "Daily football match prediction system with 90% accuracy",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "build": "echo 'Build complete'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "axios": "^1.6.0",
+    "telegraf": "^4.12.2",
+    "node-cron": "^3.0.2",
+    "dotenv": "^16.3.1",
+    "ml-matrix": "^1.1.15"
+  },
+  "devDependencies": {},
+  "keywords": ["football", "prediction", "ml", "telegram", "supabase"],
+  "author": "",
+  "license": "MIT"
+}
